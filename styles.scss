@@ -55,6 +55,25 @@ nav{
     font-family: $font-main,sans-serif;
     color: #394167;
 }
+
+.idea{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: text;
+}
+
+.angry{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: text;
+}
+
 .footer{
     margin-top: 48px;
     background-color: #fffcdc;
