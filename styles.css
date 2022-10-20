@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Nunito&display=swap");
+nav {
+  background-color: blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-family: "Nunito";
+}
+
+main {
+  font-family: "IBM PlexSans";
+}
