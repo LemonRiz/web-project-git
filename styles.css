@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Nunito&display=swap");
 main {
-  font-family: "IBM PlexSans";
+  font-family: "IBM Plex Sans";
 }
 
 body {
   background-color: #fffdf8;
   align-items: center;
-  font-family: "IBM PlexSans";
+  font-family: "IBM Plex Sans";
 }
 
 nav {
@@ -53,8 +53,22 @@ nav {
 }
 
 .parenting {
-  font-family: "IBM PlexSans", sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   color: #394167;
+}
+
+.details {
+  padding: 0;
+  margin: 0;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: text;
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #394167;
+  font-weight: 400;
 }
 
 .idea {
@@ -75,7 +89,7 @@ nav {
   cursor: text;
 }
 
-.bookish{
+.bookish {
   width: 90%;
   margin: 0 auto;
   display: flex;
@@ -84,7 +98,7 @@ nav {
   cursor: text;
 }
 
-.lifter{
+.lifter {
   width: 90%;
   margin: 0 auto;
   display: flex;
@@ -92,6 +106,7 @@ nav {
   justify-content: space-between;
   cursor: text;
 }
+
 .footer {
   margin-top: 48px;
   background-color: #fffcdc;
@@ -99,12 +114,12 @@ nav {
   flex-direction: column;
   align-items: center;
   box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.23);
-  font-family: "IBM PlexSans";
+  font-family: "IBM Plex Sans";
   text-align: center;
 }
 
 .footer-links {
-  font-family: "IBM PlexSans", sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   color: #394167;
   font-weight: 500;
   font-size: 18px;
@@ -116,7 +131,7 @@ nav {
   display: flex;
   flex-direction: column;
   text-align: center;
-  font-family: "IBM PlexSans", sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   color: #394167;
 }
 

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Nunito&display=swap');
 $font-header:"Nunito";
-$font-main:"IBM PlexSans";
+$font-main:"IBM Plex Sans";
 main{
     font-family: $font-main;
     }
@@ -56,6 +56,19 @@ nav{
     color: #394167;
 }
 
+.details{
+    padding:0;
+    margin:0;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: text;
+    font-family: $font-main,sans-serif;
+    color:#394167;
+    font-weight: 400;
+}
 .idea{
     width: 90%;
     margin: 0 auto;
@@ -66,6 +79,24 @@ nav{
 }
 
 .angry{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: text;
+}
+
+.bookish{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: text;
+}
+
+.lifter{
     width: 90%;
     margin: 0 auto;
     display: flex;
