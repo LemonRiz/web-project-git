@@ -41,8 +41,16 @@ nav{
     display: flex;
     text-align: center;
     align-items: center;
+    flex-direction: column;
 }
-
+.create{
+    color: #1bb9f1;
+}
+.empower{
+    text-align: center;
+    margin: 5% auto;
+    font-size: 14px;
+}
 .parenting{
     font-family: $font-main,sans-serif;
     color: #394167;
