@@ -1,6 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Nunito&display=swap");
+main {
+  font-family: "IBM PlexSans";
+}
+
+body {
+  background-color: #fffdf8;
+  align-items: center;
+  font-family: "IBM PlexSans";
+}
+
 nav {
-  background-color: blue;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -8,6 +17,40 @@ nav {
   font-family: "Nunito";
 }
 
-main {
+.mockup {
+  padding: 0;
+  margin: 0;
+}
+
+.slogan {
+  font-family: "Nunito";
+  color: #1bb9f1;
+  font-weight: 800;
+  font-size: 25px;
+  width: 70%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.footer {
+  margin-top: 48px;
+  background-color: #fffcdc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.23);
   font-family: "IBM PlexSans";
+}
+
+.footer-links {
+  font-family: "IBM PlexSans", sans-serif;
+  color: #394167;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 12px;
+}
+
+.button-primary:hover {
+  cursor: pointer;
 }

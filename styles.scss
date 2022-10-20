@@ -1,8 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Nunito&display=swap');
 $font-header:"Nunito";
 $font-main:"IBM PlexSans";
+main{
+    font-family: $font-main;
+    }
+
+body{
+    background-color:#fffdf8;
+    align-items: center;
+    font-family: $font-main;
+}
+
 nav{
-    background-color: blue;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,6 +19,41 @@ nav{
     font-family: $font-header;
 }
 
-main{
-font-family: $font-main;
+.mockup{
+    padding: 0;
+    margin: 0;
+}
+
+.slogan{
+    font-family: $font-header;
+    color: #1bb9f1;
+    font-weight: 800;
+    font-size: 25px;
+    width: 70%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.footer{
+    margin-top: 48px;
+    background-color: #fffcdc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 -2px 10px rgba(0,0,0,.23);
+    font-family: $font-main;
+}
+
+.footer-links{
+    font-family: $font-main,sans-serif;
+    color: #394167;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 12px;
+}
+  
+
+.button-primary:hover{
+    cursor: pointer;
 }
